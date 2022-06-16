@@ -22,7 +22,6 @@ libnativewindow.so
 libneuralnetworks.so nopreload
 libOpenMAXAL.so
 libOpenSLES.so
-libRS.so
 libstdc++.so
 libsync.so
 libvulkan.so
