@@ -432,8 +432,8 @@ static bool HandleControlMessage(std::string_view message, const std::string& na
     }
 
     if (service == nullptr) {
-        LOG(ERROR) << "Control message: Could not find '" << name << "' for ctl." << message
-                   << " from pid: " << from_pid << " (" << process_cmdline << ")";
+      /*LOG(ERROR) << "Control message: Could not find '" << name << "' for ctl." << message
+	<< " from pid: " << from_pid << " (" << process_cmdline << ")";*/
         return false;
     }
 
